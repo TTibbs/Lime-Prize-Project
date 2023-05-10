@@ -24,10 +24,10 @@
     <img class="bike" src="images/limebike.png" alt="Win an E-Bike">
     <p class="enter-text">Enter the prize draw for a chance to win!</p>
     <p class="form-text">Simply fill in the form and click the button below to enter.</p>
-    <form class="enter-draw" action="enter">
-      <input class="email-input" type="email" placeholder="Type email here">
-    </form>
-    <a href="rickroll.html" target="_blank"><button class="enter-btn">Enter</button></a>
+    <form class="enter-draw" action="submit">
+      <input class="email-input" type="email" placeholder="Type email here" required>
+      <button class="enter-btn" onclick="submitForm()">Enter</button>
+    </form>    
   </main>
   
   <footer>
@@ -40,5 +40,6 @@
       <li class="item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
     </ul>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
