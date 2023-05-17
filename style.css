@@ -47,7 +47,7 @@ header {
   background-color: #f7f7f7;
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,6 +105,23 @@ main {
   background-color: rgb(0, 190, 47);
 }
 
+.copyright {
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crh2 {
+  font-size: 1.45rem;
+  margin-bottom: 10px;
+}
+
+.crh3 {
+  font-size: 1.1rem;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -130,7 +147,7 @@ footer {
     padding: 1.2rem;
   }
 
-  main {
+  .main {
     padding: 1.6rem;
   }
 
@@ -160,6 +177,22 @@ footer {
     padding: .4rem .7rem;
     margin: .55rem 0;
     font-size: .75rem;
+  }
+
+  .copyright {
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .crh2 {
+    font-size: 1.35rem;
+  }
+
+  .crh3 {
+    font-size: 1rem;
   }
 
   footer {
@@ -195,7 +228,7 @@ footer {
     padding: 1rem;
   }
 
-  main {
+  .main {
     padding: 1.4rem;
   }
 
@@ -230,6 +263,22 @@ footer {
     padding: .3rem .6rem;
     margin: .45rem 0;
     font-size: .65rem;
+  }
+
+  .copyright {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .crh2 {
+    font-size: 1.2rem;
+  }
+
+  .crh3 {
+    font-size: .95rem;
   }
 
   footer {
