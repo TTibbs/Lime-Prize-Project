@@ -51,6 +51,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .bike {
@@ -114,12 +115,14 @@ header {
 }
 
 .crh2 {
-  font-size: 1.45rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
   margin-bottom: 10px;
 }
 
 .crh3 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  font-weight: bold;
 }
 
 footer {
@@ -181,6 +184,7 @@ footer {
 
   .copyright {
     height: 350px;
+    padding: 1.6rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -188,11 +192,11 @@ footer {
   }
 
   .crh2 {
-    font-size: 1.35rem;
+    font-size: .85rem;
   }
 
   .crh3 {
-    font-size: 1rem;
+    font-size: .7rem;
   }
 
   footer {
@@ -267,6 +271,7 @@ footer {
 
   .copyright {
     height: 300px;
+    padding: 1.4rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -274,11 +279,11 @@ footer {
   }
 
   .crh2 {
-    font-size: 1.2rem;
+    font-size: .7rem;
   }
 
   .crh3 {
-    font-size: .95rem;
+    font-size: .6rem;
   }
 
   footer {
