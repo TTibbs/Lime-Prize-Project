@@ -13,10 +13,23 @@ emailInput.addEventListener('input', () => {
 });
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); // Prevent default form submission behavior
+  event.preventDefault();
   const link = document.querySelector('.enter-btn').href;
   window.location.href = link;
 });
+
+function toggleContainer() {
+  var container = document.getElementById('copyrightContainer');
+  var showBtn = document.getElementById('showBtn');
+
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    showBtn.innerText = 'Close Content';
+  } else {
+    container.style.display = 'none';
+    showBtn.innerText = 'Open Content';
+  }
+}
 
 function submitForm() {
   const emailInput = document.querySelector('.email-input');

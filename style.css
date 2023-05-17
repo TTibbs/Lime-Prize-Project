@@ -125,6 +125,26 @@ header {
   font-weight: bold;
 }
 
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#copyrightContainer {
+  display: none;
+  padding: 10px;
+  margin: 10px auto;
+  position: relative;
+  z-index: 1;
+}
+
+#showBtn {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -235,10 +255,6 @@ footer {
   .main {
     padding: 1.4rem;
   }
-
-  /* .bike {
-    max-width: 30%;
-  } */
 
   .enter-text {
     font-size: .75rem;
