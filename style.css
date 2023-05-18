@@ -13,6 +13,10 @@
   min-height: 100vh;
 }
 
+.t-center {
+  text-align: center;
+}
+
 .container {
   display: flex;
   align-items: center;
