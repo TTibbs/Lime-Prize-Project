@@ -165,6 +165,19 @@ footer {
   margin: 0 10px;
 }
 
+#showBtn {
+  padding: .6rem 1.2rem;
+  margin: .8rem 0;
+  background-color: rgb(0, 255, 17);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: .9rem;
+  font-weight: 600;
+  text-shadow: 0 0 10px 10px black;
+  cursor: pointer;
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
   header {
     padding: 1.2rem;
@@ -197,7 +210,7 @@ footer {
   }
 
   .enter-btn {
-    padding: .45rem .6rem;
+    padding: .55rem .65rem;
     margin: .45rem 0;
     font-size: .7rem;
   }
@@ -238,6 +251,12 @@ footer {
 
   .fa-brands {
     font-size: 1.25rem;
+  }
+
+  #showBtn {
+    padding: .55rem .65rem;
+    margin: .45rem 0;
+    font-size: .7rem;
   }
 }
 
@@ -322,5 +341,11 @@ footer {
 
   .fa-brands {
     font-size: 1.1rem;
+  }
+
+  #showBtn {
+    padding: .45rem .6rem;
+    margin: .45rem 0;
+    font-size: .65rem;
   }
 }
